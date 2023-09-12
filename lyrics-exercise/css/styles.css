@@ -1,0 +1,17 @@
+h1 { font-family: Consolas, monaco, monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+h3 { font-family: Consolas, monaco, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+p { font-family: Consolas, monaco, monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote { font-family: Consolas, monaco, monospace; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: Consolas, monaco, monospace; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+
+head {
+    text-align: center; 
+}
+body {
+    background: rgb(0,0,0,.8) url('https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/2/24/OfficeEmpty.png/revision/latest?cb=20220806131812');
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
