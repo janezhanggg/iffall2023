@@ -1,0 +1,38 @@
+head {
+    background-color: rgb(15, 44, 29);
+    text-align: center; 
+}
+body {
+    background-color: rgb(15, 44, 29);
+    text-align: center;
+    color: rgb(183, 208, 183);
+
+}
+p {
+    font-size: 12px; 
+}
+
+p.peter {
+    color: rgb(0, 231, 111);
+    font-weight: bold;
+}
+p.dana {
+    color: rgb(255, 135, 187);
+    font-weight: bold;
+}
+p.mayor {
+    color: rgb(255, 144, 41);
+    font-weight: bold;
+}
+p.ray {
+    color: rgb(144, 179, 255);
+    font-weight: bold;
+}
+p.egon {
+    color: rgb(231, 147, 254);
+    font-weight: bold;
+}
+p.winston {
+    color: rgb(255, 235, 121);
+    font-weight: bold;
+}
