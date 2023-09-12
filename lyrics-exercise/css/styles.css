@@ -8,7 +8,7 @@ head {
     text-align: center; 
 }
 body {
-    background: url(https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/2/24/OfficeEmpty.png/revision/latest?cb=202208061318124);
+    background: rgba(0, 0, 0, .65) url(https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/2/24/OfficeEmpty.png/revision/latest?cb=202208061318124);
     background-blend-mode: darken;
     background-attachment: fixed;
     text-align: center;
