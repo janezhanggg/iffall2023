@@ -1,0 +1,45 @@
+html{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 75px 200px;
+}
+
+h3 {
+    color: lightslategray;
+}
+.caption {
+    color:lightslategrey;
+    font-size: 15px;
+}
+
+.wide {
+    letter-spacing: .3em;
+}
+
+.narrow {
+    letter-spacing: -.06em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
