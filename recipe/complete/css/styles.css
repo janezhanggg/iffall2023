@@ -18,7 +18,7 @@ h1 {
     font-size: 72px;
     border: solid 3px;
     margin: 50px 200px;
-    padding: 50px 0px;
+    padding: 50px 25px;
 }
 
 h2 {
@@ -44,6 +44,7 @@ p {
     text-align: center;
     background-color: gold;
     padding: 250px 100px;
+    /* height: 100%; */
 }
 
 .main h3 {
@@ -125,13 +126,13 @@ footer a {
     font-weight: 700;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 590px) {
     h1 {
         font-size: 36px;
         border: solid 3px;
         margin: 25px 50px;
         margin-bottom: 50px;
-        padding: 25px 0px;
+        padding: 25px;
     }
 
     h2 {
@@ -207,7 +208,7 @@ footer a {
     }
 }
 
-@media (max-width: 768px) and (min-width:480px) {
+@media (max-width: 900px) and (min-width:590px) {
     h1 {
         margin: 25px 50px;
         margin-bottom: 50px;
