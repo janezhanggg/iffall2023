@@ -207,7 +207,7 @@ footer a {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width:480px) {
     h1 {
         margin: 25px 50px;
         margin-bottom: 50px;
