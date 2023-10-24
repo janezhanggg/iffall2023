@@ -88,6 +88,10 @@ ul {
     width: 100%;
 }
 
+.set p {
+    overflow: hidden;
+}
+
 .set img {
     width: 150px;
     margin-top: 50px;
@@ -121,7 +125,7 @@ footer a {
     font-weight: 700;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     h1 {
         font-size: 36px;
         border: solid 3px;
@@ -147,7 +151,7 @@ footer a {
     }
 
     .main {
-        padding: 200px 50px;
+        padding: 75% 50px;
     }
 
     .prep p {
@@ -179,7 +183,6 @@ footer a {
 
     .set p {
         font-size: 8px;
-        overflow: hidden;
     }
     
     .set img {
@@ -196,6 +199,69 @@ footer a {
     .note {
         padding: 25px;
         font-size: 10px;
+        margin-bottom: 75px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        margin: 25px 50px;
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        margin: 0 75px;
+        padding: 25px 0;
+        text-align: center;
+    }
+
+    .prep p {
+        margin: 75px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    ul {
+        margin: 25px 75px;
+        margin-left: 60px;
+    }
+    
+    .info {
+        padding: 10px 25px;
+        margin: 50px 75px;
+        margin-bottom: 75px;
+    }
+    
+    .info p {
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .instructions {
+        margin: 0 75px;
+    }
+
+    .set p {
+        font-size: 10px;
+    }
+    
+    .set img {
+        width: 95px;
+        margin-top: 25px;
+        margin-right: 25px;
+        float: left;
+    }
+    
+    .text {
+        margin-top: 15px;
+    }
+    
+    .note {
+        padding: 25px;
         margin-bottom: 75px;
     }
 
