@@ -1,0 +1,232 @@
+a#mobot {
+    text-decoration: none;
+    font-family: 'Gill Sans';
+    font-weight: 600;
+    color:darkgreen;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+    transition: all .5s;
+    margin: 15px 0;
+}
+
+#mobot .fa-spa{
+    display: block;
+    color:white;
+    padding: 10px;
+    transition: all .5s;
+    margin: 15px 0;
+}
+
+#mobot:hover a{
+    font-size: 30px;
+}
+
+#mobot:hover .fa-spa{
+    color: darkgreen;
+}
+
+a#apple {
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+    transition: all .5s;
+    display: block;
+    margin-top: 50px;
+}
+
+a#apple:hover {
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+a#insta {
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+    transition: all .5s;
+}
+
+a#insta {
+    display: block;
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+    margin: 50px 60px;
+    border-radius: 30px;
+    transition: all .5s;
+}
+
+a#insta:hover {
+    background: linear-gradient(45deg,  #ffd800 0%,#ff28d7 50%,#9d1eff 100%);
+    color: white;
+}
+
+a#colorrun {
+    display: block;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    transition: all .5s;
+    margin: 90px 0;
+}
+
+a#colorrun:hover {
+    background: linear-gradient(45deg, #fcfc00 0%,#00d8ff 51%,#ff00c3 100%);
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    transition: all .5s;
+    border-radius: 10px;
+}
+
+a#kittens {
+    display: block;
+    font-size: 25px;
+    font-family:'Impact';
+    background: maroon;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    margin: 90px 0;
+    transition: all .5s;
+}
+
+a#kittens:hover .fa-cat {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+a#npr {
+    display: block;
+    font-size: 40px;
+    font-family:'Gill Sans';
+    color: white;
+    text-decoration: none;
+    margin: 100px 0;
+    transition: all .5s;
+}
+
+#n, #p, #r {
+    background-color: black;
+    padding: 5px 10px;
+}
+
+a#npr:hover #n{
+    background-color:crimson;
+}
+
+a#npr:hover #r{
+    background-color:dodgerblue;
+}
+
+a#facebook {
+    font-size: 100px;
+    text-decoration: none;
+    color: dodgerblue;
+    transition: all .5s;
+    display: block;
+    margin-top: 50px;
+}
+
+a#facebook:hover {
+    color: steelblue;
+    font-size: 120px;
+}
+
+a#cn {
+    display: block;
+    margin: 90px 20px;
+    transition: all 0.5s;
+
+}
+
+a#cn span {
+    background-color: white;
+    padding: 5px;
+}
+
+a#cn:hover img#c {
+    transition: all 0.5s;
+    transform: rotate(360deg);
+}
+
+a#ny {
+    display: block;
+    font-size: 25px;
+    font-family: 'Times';
+    text-decoration: none;
+    font-variant: small-caps;
+    font-style: italic;
+    color: black;
+    transition: all .2s;
+    padding: 10px;
+    margin: 100px 10px;
+}
+
+a#ny:hover {
+    background: black;
+    color: white;
+    transition: all .5s;
+}
+
+#mk-btn {
+    display: block;
+    font-size: 25px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+    background: black;
+    padding: 20px;
+    margin: 80px;
+    transition: all 0.5s;
+}
+
+#mk-btn #mk {
+    display: block;
+    transition: all 0.5s;
+}
+
+#mk-btn #michaelkors {
+    display: none;
+    transition: all 0.5s;
+
+}
+
+#mk-btn:hover {
+    margin: 80px 40px;
+    transition: all 0.5s;
+}
+
+#mk-btn:hover #mk {
+    display: none;
+    transition: all 0.5s;
+
+}
+
+#mk-btn:hover #michaelkors {
+    display: block;
+    transition: all 0.5s;
+
+}
